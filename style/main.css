@@ -1,0 +1,57 @@
+/************************* general **********************/
+
+body {
+   font-family: Corbel,Arial, sans-serif;
+   margin: 0;
+}
+
+
+  
+a{
+   color: #006600;
+   text-decoration: none;
+}
+
+/************************* header **********************/
+ 
+#header {
+   background-color:olive;
+}
+
+h1 {
+   font-size: 36px;
+   margin: 0;
+   text-align: center;
+   padding: 15px 0 0 0
+   color: #ffffff
+text-transform: uppercase;
+}
+
+h2{
+   text-align: center;
+   margin: 0
+   color: #ffffff
+}
+
+#nav {background-color:darkgrey;
+   text-align: center;
+   list-style-type:none;
+
+}
+#nav li{display: inline-block;
+   padding: 6px 8px 6px 8px
+}
+#nav li * {color: white;
+   }
+#nav li#hover {background-color:white;
+}
+/************************* content **********************/
+ 
+#content {
+   width: 600px;
+   margin: 30px auto;
+
+}
+#content h4 {
+   border-bottom:darkblue solid  3px;
+}
